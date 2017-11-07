@@ -4,7 +4,7 @@ I did a bunch of research and couldn't find a good example of using Docker to do
 
 I've only tested this on High Sierra with Docker CE 17.09 but it is Docker so it should be universal to all *nix variants.
 
-There are 2 ways you probably want to run Python in Docker so there are 2 shell scripts:
+There are 2 ways you probably want to run PHP in Docker so there are 2 shell scripts:
 
 ## Interactive
 
