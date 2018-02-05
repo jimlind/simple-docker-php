@@ -1,3 +1,5 @@
 #!/bin/sh
-docker build -t simple-docker-php .
-docker run -it -v $(pwd)/src:/src -w /src simple-docker-php sh
+name="simple-docker-php"
+
+docker build -t $name .
+docker run -it -v $(pwd)/src:/src -w /src $name sh

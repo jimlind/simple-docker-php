@@ -1,5 +1,5 @@
 # Use a minimal docker image
-FROM alpine:3.6
+FROM alpine:3.7
 
 # Install PHP
 RUN apk update && apk add php7
